@@ -1,4 +1,4 @@
-from testscript.account.test_login import test_go_home
+# from testscript.account.test_login import test_go_home
 from tools.json_reader import read_json_from_filepath
 from playwright.async_api import Page, expect, BrowserContext, async_playwright
 

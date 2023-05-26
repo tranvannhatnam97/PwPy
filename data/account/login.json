@@ -1,5 +1,6 @@
 {
     "description":{
+        "TS_id":"",
         "positive": true,
         "tags": [],
         "jira_id":""
@@ -11,7 +12,9 @@
                 "username":"quynhdtb@ichiba.vn",
                 "password":"Quynh123@"
             },
-            "expect":{}
+            "expect":{
+                "return": true
+            }
         },
         {
             "TC_id": "TC002",
@@ -19,7 +22,9 @@
                 "username":"mongtoria1@gmail.com",
                 "password":"Cr@zyloop1"
             },
-            "expect":{}
+            "expect":{
+                "return": true
+            }
         }
     ]
 }

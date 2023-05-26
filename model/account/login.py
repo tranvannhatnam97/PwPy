@@ -17,3 +17,4 @@ class HomePage:
     async def click_login_button(self):
         await self.login_button.click()
         await self.page.wait_for_load_state('domcontentloaded')
+        await self.page.wait_for_timeout(5000)
